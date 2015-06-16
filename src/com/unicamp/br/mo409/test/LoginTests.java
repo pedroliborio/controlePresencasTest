@@ -1,14 +1,12 @@
 package com.unicamp.br.mo409.test;
 
-import static org.junit.Assert.*;
-
 import org.junit.Before;
 import org.junit.Test;
 
+import android.test.ActivityInstrumentationTestCase2;
+
 import com.robotium.solo.Solo;
 import com.unicamp.br.mo409.controller.LoginActivity;
-
-import android.test.ActivityInstrumentationTestCase2;
 
 public class LoginTests extends ActivityInstrumentationTestCase2<LoginActivity> {
 
@@ -30,6 +28,7 @@ public class LoginTests extends ActivityInstrumentationTestCase2<LoginActivity> 
 	@Test
 	public void testLogin() {
 		solo.assertCurrentActivity("Tela de Login", LoginActivity.class);
+		//solo.
 	}
 
 }
