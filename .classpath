@@ -8,6 +8,10 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry exported="true" kind="lib" path="robotium/robotium-solo-5.4.1.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+<<<<<<< HEAD
 	<classpathentry exported="true" kind="lib" path="robotium/robotium-solo-5.3.0-javadoc.jar"/>
+=======
+	<classpathentry exported="true" kind="lib" path="robotium/robotium-solo-5.0.1-javadoc.jar"/>
+>>>>>>> origin/master
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
